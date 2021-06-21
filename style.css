@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  margin: 0;
+  font-family: 'Raleway';
+  background-color:lightyellow;
+  font-size: 16px;
+  line-height: 1.8em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+.Profile{
+  text-size-adjust: 2rem;
+  background-color:seashell;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.Profileimg img{
+  border-image: round;
+  image-position:center;
+  width: 100%;
+  display: block;
+  width:250px;
+  border-radius: 150px;
+  
+}
+  
+.Contact{
+  background-color:linen;
+}
+
+a {
+  color: rgb(233, 14, 134);
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+article {
+  padding:0 1em;
+}
+
+section{
+  margin: 2em;
+  padding: 2em;
+}
+
+header, main, footer {
+  margin: 0 auto;
+}
+
+header {
+  padding: 2em;
+  text-align: center;
+  background-color:seashell;
+  background-size: cover;
+  background-position: fixed;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:salmon;
+}
+
+header section {
+  margin: 0 auto;
+  max-width: 640px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header img {
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 1rem 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.job-description{
+  background-color:gray;
+    background-size: cover;
+    background-position: fixed;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+h3, h4 {
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .job-title{
+    padding: 2em;
+    text-align: center;
+    background-image: url("skills.png");
+    background-color:gray;
+    background-size: cover;
+    background-position: fixed;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+  
+
+main {
+  max-width: 1140px;
+}
+
+main section:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.fab {
+  border: 1px solid lightseagreen ;
+  border-radius: 50%;
+  font-size: 1.5em;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: 5px;
+  text-align: center;
+}
+
+a .fab {
+  color:lightseagreen;
+}
+
+.course, .skills {
+  display: -ms-flexbox;
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.course .title {
+  color: #509e98;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -ms-flex: 0 0 33.3%;
+  flex: 0 0 33.3%;
+  max-width: 33%;
+}
+
+.course .descrition {
+  -ms-flex: 0 0 66.6%;
+  flex: 0 0 66.6%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: 66.6%;
+}
+
+.course .descrition p {
+  padding-left: 1em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.skills .column {
+  -ms-flex: 0 0 50%%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.skills .column ul, ul.job-description {
+  background-color:linen;
+  list-style-type: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.skills .column ul > li:before {
+  content: "►";
+  padding-right: 0.5em;
+  color: #509e98;
+}
+
+.school, .job-title {
+  text-transform: capitalize;
+}
+
+.school span, .job-title span {
+  color: lightseagreen;
+  text-decoration: underline;
+}
+
+ul.job-description li:before{
+  content: "✔";
+  padding-right: 0.5em;
+  color: #509e98;
+}
+
+footer {
+ padding: 1em 1.5em;
+ background: #A7B8BF;
+ background-color:linen;
+ text-align: right;
+}
+.course{
+  padding: 2em;
+  text-align: center;
+  background-image: url("skills.png");
+  background-size: cover;
+  background-position: fixed;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+@media only screen and (max-width: 768px) {
+  .course {
+    display: block;
+  }
+  .course .title, .course .descrition {
+    max-width: 100%;
+  }
+}
+.skills
+{
+  padding: 2em;
+  text-align: center;
+  background-color:lightsteelblue;
+  background-size: cover;
+  background-position: fixed;
+  
+  }
+  .school{
+  
+  text-align: center;
+  background-color:lightsteelblue;
+  background-size: cover;
+  background-position: fixed;
+  }
+  .Collage{
+  
+    text-align: center;
+    background-color:lightsteelblue;
+    background-size: cover;
+    background-position: fixed;
+    }
+    .Graduation{
+  
+      text-align: center;
+      background-color:lightsteelblue;
+      background-size: cover;
+      background-position: fixed;
+      }
+      .job-description{ 
+        text-align: center;
+        background-color:lightsteelblue;
+        background-size: cover;
+        background-position: fixed;}
+
+@media only screen and (max-width: 576px) {
+  .skills {
+    display: block;
+  }
+
+  .skills .column {
+    max-width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+}
